@@ -1,0 +1,115 @@
+---
+title: "zlx Machine Learning Lab"
+body-classes: home-page
+page-layout: full
+toc: false
+title-block-banner: false
+listing:
+  id: articles
+  contents: posts
+  type: default
+  sort: "date desc"
+  fields: [date, title, description, categories]
+  categories: false
+  date-format: "YYYY-MM-DD"
+  page-size: 1000
+  sort-ui: false
+  filter-ui: false
+  feed: true
+---
+
+```{=html}
+<section class="home-hero" aria-label="首页封面">
+  <img class="home-hero-image" src="images/t5.jpg" width="1280" height="626"
+       alt="雾蓝色山峦间，两个人物相对而立" fetchpriority="high">
+  <div class="home-hero-copy">
+    <span class="hero-eyebrow">LEARN · CREATE · REMEMBER</span>
+    <h1>zlx Machine Learning Lab</h1>
+    <p>把好奇写成笔记，把想法变成代码。</p>
+    <div class="hero-links">
+      <a href="#journal">开始阅读 <span aria-hidden="true">↓</span></a>
+      <a href="https://github.com/zlx0613"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
+    </div>
+  </div>
+</section>
+```
+
+::::: {.home-grid}
+
+:::: {.home-left}
+
+```{=html}
+<section class="widget profile-widget" aria-labelledby="profile-name">
+  <div class="profile-cover" aria-hidden="true"></div>
+  <img class="profile-avatar"
+     src="images/t6.jpg"
+     alt="我的头像">
+  <h2 id="profile-name">zlx0613</h2>
+  <p class="profile-intro">你好，欢迎来到我的学习小站。</p>
+  <p class="profile-note">在这里记录学习、代码与日常，慢慢积累自己的答案。</p>
+  <a class="profile-github" href="https://github.com/zlx0613"><i class="bi bi-github" aria-hidden="true"></i> GitHub</a>
+  <div class="profile-counts">
+    <div><strong data-stat="posts">—</strong><span>文章</span></div>
+    <div><strong data-stat="categories">—</strong><span>分类</span></div>
+  </div>
+</section>
+<section class="widget explore-widget" aria-labelledby="explore-title">
+  <h2 class="widget-title" id="explore-title">小站导航</h2>
+  <a href="#journal"><i class="bi bi-journal-text" aria-hidden="true"></i> 阅读文章 <span>→</span></a>
+  <a href="about.qmd"><i class="bi bi-person" aria-hidden="true"></i> 关于我 <span>→</span></a>
+  <a href="index.xml"><i class="bi bi-rss" aria-hidden="true"></i> RSS 订阅 <span>→</span></a>
+</section>
+```
+
+::::
+
+:::: {.home-center #journal}
+
+```{=html}
+<div class="journal-heading"><div><span class="section-eyebrow">MY JOURNAL</span><h2>最近的记录</h2></div><span id="article-summary" role="status" aria-live="polite"></span></div>
+<nav class="category-bar" id="category-bar" aria-label="按分类浏览文章"><span>分类载入中…</span></nav>
+<p id="listing-empty" class="widget" hidden>这个分类暂时没有文章。</p>
+```
+
+::: {#articles}
+:::
+
+::::
+
+:::: {.home-right}
+
+```{=html}
+<section class="widget" aria-labelledby="stats-title">
+  <h2 class="widget-title" id="stats-title">站点统计</h2>
+  <dl class="site-stats">
+    <div><dt><i class="bi bi-file-earmark-text" aria-hidden="true"></i> 文章</dt><dd data-stat="posts">—</dd></div>
+    <div><dt><i class="bi bi-folder2" aria-hidden="true"></i> 分类</dt><dd data-stat="categories">—</dd></div>
+    <div><dt><i class="bi bi-calendar-heart" aria-hidden="true"></i> 写作第</dt><dd><span data-stat="days">—</span> 天</dd></div>
+    <div><dt><i class="bi bi-clock-history" aria-hidden="true"></i> 最近发布</dt><dd data-stat="latest">—</dd></div>
+  </dl>
+</section>
+<section class="widget clock-widget" aria-labelledby="clock-title">
+  <h2 class="widget-title" id="clock-title">此刻</h2>
+  <time id="live-clock" aria-label="北京时间">--:--:--</time>
+  <p id="live-date"></p>
+  <span class="timezone-note">北京时间 · UTC+8</span>
+</section>
+<section class="widget calendar-widget" aria-labelledby="calendar-label">
+  <div class="calendar-toolbar">
+    <button type="button" id="calendar-prev" aria-label="上个月">‹</button>
+    <h2 id="calendar-label"></h2>
+    <button type="button" id="calendar-next" aria-label="下个月">›</button>
+  </div>
+  <div class="calendar-weekdays" aria-hidden="true"><span>一</span><span>二</span><span>三</span><span>四</span><span>五</span><span>六</span><span>日</span></div>
+  <div id="calendar-days" class="calendar-days"></div>
+  <div class="calendar-footer"><span><i aria-hidden="true"></i> 有文章的日期</span><button id="calendar-today" type="button">回到本月</button></div>
+</section>
+```
+
+::::
+
+:::::
+
+```{=html}
+<footer class="home-footer">zlx0613 · 记录学习，保持好奇 <span>Built with Quarto</span></footer>
+```

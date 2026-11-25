@@ -1,0 +1,37 @@
+project:
+  type: website
+  output-dir: docs
+  resources:
+    - home.js
+lang: zh-CN
+
+website:
+  title: "zlx Machine Learning Lab"
+  description: "记录学习、代码与日常"
+  site-url: https://zlx0613.github.io
+  navbar:
+    background: light
+    pinned: true
+    left:
+      - href: index.qmd
+        text: 首页
+        icon: house
+      - href: index.qmd#journal
+        text: 文章
+        icon: journal-text
+      - href: about.qmd
+        text: 关于我
+        icon: person
+    right:
+      - icon: github
+        href: https://github.com/zlx0613
+        aria-label: GitHub
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-copy: true
+    include-after-body:
+      - text: '<script src="/home.js"></script>'

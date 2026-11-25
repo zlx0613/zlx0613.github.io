@@ -1,0 +1,58 @@
+[
+  {
+    "objectID": "posts/my-first-post/index.html",
+    "href": "posts/my-first-post/index.html",
+    "title": "我的第一篇博客：从零搭建个人博客",
+    "section": "",
+    "text": "我想开始写自己的博客，记录学习过程、实验和遇到的问题。以后学习机器学习时，也可以把真正理解过的知识和亲手完成的代码整理下来。"
+  },
+  {
+    "objectID": "posts/my-first-post/index.html#为什么想写博客",
+    "href": "posts/my-first-post/index.html#为什么想写博客",
+    "title": "我的第一篇博客：从零搭建个人博客",
+    "section": "",
+    "text": "我想开始写自己的博客，记录学习过程、实验和遇到的问题。以后学习机器学习时，也可以把真正理解过的知识和亲手完成的代码整理下来。"
+  },
+  {
+    "objectID": "posts/my-first-post/index.html#我今天做了什么",
+    "href": "posts/my-first-post/index.html#我今天做了什么",
+    "title": "我的第一篇博客：从零搭建个人博客",
+    "section": "我今天做了什么",
+    "text": "我今天做了什么\n今天，我用 GitHub 创建了一个属于自己的公开仓库，并在电脑上安装、运行了 Quarto。随后，我用 Quarto 创建博客项目，在 VS Code 中打开文件，第一次看到了博客的本地预览。"
+  },
+  {
+    "objectID": "posts/my-first-post/index.html#我认识的几个工具",
+    "href": "posts/my-first-post/index.html#我认识的几个工具",
+    "title": "我的第一篇博客：从零搭建个人博客",
+    "section": "我认识的几个工具",
+    "text": "我认识的几个工具\n\nGitHub：保存博客文件和代码。\nQuarto：把文章整理并生成网页。\nVS Code：编写和修改文章、代码。\n本地预览：先在自己的电脑上检查网页效果。\n\n它们各自负责不同的事情。写好文章并保存后，我可以先本地预览；确认无误后，再学习如何把修改同步到 GitHub，让网站对外发布。"
+  },
+  {
+    "objectID": "posts/my-first-post/index.html#这次遇到的小问题",
+    "href": "posts/my-first-post/index.html#这次遇到的小问题",
+    "title": "我的第一篇博客：从零搭建个人博客",
+    "section": "这次遇到的小问题",
+    "text": "这次遇到的小问题\n一开始，我在 PowerShell 当前所在的目录里创建了博客项目，差点把文件放到错误的位置。后来我进入 D:\\GitHub\\zlx0613.github.io 仓库目录，再运行创建命令，项目文件才出现在正确的地方。\n我也发现，Quarto 的创建命令不一定能直接创建单篇博客文章。于是我在 VS Code 的 posts 文件夹里新建文章文件夹，再创建 index.qmd 作为文章源文件。"
+  },
+  {
+    "objectID": "posts/my-first-post/index.html#我现在理解的写作流程",
+    "href": "posts/my-first-post/index.html#我现在理解的写作流程",
+    "title": "我的第一篇博客：从零搭建个人博客",
+    "section": "我现在理解的写作流程",
+    "text": "我现在理解的写作流程\n```text 在 VS Code 编写 index.qmd ↓ 保存文章 ↓ 用 Quarto 本地预览 ↓ 检查标题、文字和排版 ↓ 之后再同步到 GitHub 发布"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "zlx Machine Learning Lab",
+    "section": "",
+    "text": "LEARN · CREATE · REMEMBER\n    zlx Machine Learning Lab\n    把好奇写成笔记，把想法变成代码。\n    \n      开始阅读 ↓\n       GitHub\n    \n  \n\n\n\n\n  \n  \n  zlx0613\n  你好，欢迎来到我的学习小站。\n  在这里记录学习、代码与日常，慢慢积累自己的答案。\n   GitHub\n  \n    —文章\n    —分类\n  \n\n\n  小站导航\n   阅读文章 →\n   关于我 →\n   RSS 订阅 →\n\n\n\nMY JOURNAL最近的记录\n分类载入中…\n这个分类暂时没有文章。\n\n\n\n\n\n我的第一篇博客：从零搭建个人博客\n\n\n\n博客\n\n学习记录\n\n\n\n\n\n\n\n\n\n\n\n2026-11-25\n\n\n\n\n\n无匹配项\n\n\n\n\n  站点统计\n  \n     文章—\n     分类—\n     写作第— 天\n     最近发布—\n  \n\n\n  此刻\n  --:--:--\n  \n  北京时间 · UTC+8\n\n\n  \n    ‹\n    \n    ›\n  \n  一二三四五六日\n  \n   有文章的日期回到本月\n\n\n\nzlx0613 · 记录学习，保持好奇 Built with Quarto"
+  }
+]
