@@ -40,3 +40,22 @@ categories: [博客, 学习记录]
 检查标题、文字和排版
           ↓
 之后再同步到 GitHub 发布
+```
+## 我的第一个 Python 程序
+
+下面是我的示例代码：
+
+```{.python filename="hello.py"}
+def greet(name):
+    return f"你好，{name}！"
+
+print(greet("世界"))
+```
+
+这里的 `print()` 用来输出文字。
+
+## 终端命令
+
+```bash
+python hello.py
+```

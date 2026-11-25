@@ -27,6 +27,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -171,6 +206,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#我认识的几个工具" id="toc-我认识的几个工具" class="nav-link" data-scroll-target="#我认识的几个工具">我认识的几个工具</a></li>
   <li><a href="#这次遇到的小问题" id="toc-这次遇到的小问题" class="nav-link" data-scroll-target="#这次遇到的小问题">这次遇到的小问题</a></li>
   <li><a href="#我现在理解的写作流程" id="toc-我现在理解的写作流程" class="nav-link" data-scroll-target="#我现在理解的写作流程">我现在理解的写作流程</a></li>
+  <li><a href="#我的第一个-python-程序" id="toc-我的第一个-python-程序" class="nav-link" data-scroll-target="#我的第一个-python-程序">我的第一个 Python 程序</a></li>
+  <li><a href="#终端命令" id="toc-终端命令" class="nav-link" data-scroll-target="#终端命令">终端命令</a></li>
   </ul>
 </nav>
     </div>
@@ -206,7 +243,33 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="我现在理解的写作流程" class="level2">
 <h2 class="anchored" data-anchor-id="我现在理解的写作流程">我现在理解的写作流程</h2>
-<p>```text 在 VS Code 编写 index.qmd ↓ 保存文章 ↓ 用 Quarto 本地预览 ↓ 检查标题、文字和排版 ↓ 之后再同步到 GitHub 发布</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1" aria-label="1"></a>在 VS Code 编写 index.qmd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-label="2"></a>          ↓</span>
+<span id="cb1-3"><a href="#cb1-3" aria-label="3"></a>保存文章</span>
+<span id="cb1-4"><a href="#cb1-4" aria-label="4"></a>          ↓</span>
+<span id="cb1-5"><a href="#cb1-5" aria-label="5"></a>用 Quarto 本地预览</span>
+<span id="cb1-6"><a href="#cb1-6" aria-label="6"></a>          ↓</span>
+<span id="cb1-7"><a href="#cb1-7" aria-label="7"></a>检查标题、文字和排版</span>
+<span id="cb1-8"><a href="#cb1-8" aria-label="8"></a>          ↓</span>
+<span id="cb1-9"><a href="#cb1-9" aria-label="9"></a>之后再同步到 GitHub 发布</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+</section>
+<section id="我的第一个-python-程序" class="level2">
+<h2 class="anchored" data-anchor-id="我的第一个-python-程序">我的第一个 Python 程序</h2>
+<p>下面是我的示例代码：</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>hello.py</strong></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" data-filename="hello.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-label="1"></a><span class="kw">def</span> greet(name):</span>
+<span id="cb2-2"><a href="#cb2-2" aria-label="2"></a>    <span class="cf">return</span> <span class="ss">f"你好，</span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">！"</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-label="3"></a></span>
+<span id="cb2-4"><a href="#cb2-4" aria-label="4"></a><span class="bu">print</span>(greet(<span class="st">"世界"</span>))</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>这里的 <code>print()</code> 用来输出文字。</p>
+</section>
+<section id="终端命令" class="level2">
+<h2 class="anchored" data-anchor-id="终端命令">终端命令</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-label="1"></a><span class="ex">python</span> hello.py</span></code></pre></div><button title="复制到剪贴板" class="code-copy-button"><i class="bi"></i></button></div>
 
 
 </section>

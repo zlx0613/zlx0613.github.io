@@ -46,7 +46,53 @@
 </section>
 <section id="我现在理解的写作流程" class="level2">
 <h2 class="anchored" data-anchor-id="我现在理解的写作流程">我现在理解的写作流程</h2>
-<p>```text 在 VS Code 编写 index.qmd ↓ 保存文章 ↓ 用 Quarto 本地预览 ↓ 检查标题、文字和排版 ↓ 之后再同步到 GitHub 发布</p>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1">在 VS Code 编写 index.qmd</span>
+<span id="cb1-2">          ↓</span>
+<span id="cb1-3">保存文章</span>
+<span id="cb1-4">          ↓</span>
+<span id="cb1-5">用 Quarto 本地预览</span>
+<span id="cb1-6">          ↓</span>
+<span id="cb1-7">检查标题、文字和排版</span>
+<span id="cb1-8">          ↓</span>
+<span id="cb1-9">之后再同步到 GitHub 发布</span></code></pre></div></div>
+</section>
+<section id="我的第一个-python-程序" class="level2">
+<h2 class="anchored" data-anchor-id="我的第一个-python-程序">我的第一个 Python 程序</h2>
+<p>下面是我的示例代码：</p>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>hello.py</strong></pre>
+</div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" data-filename="hello.py" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">def</span> greet(name):</span>
+<span id="cb2-2">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-weight: bold;
+font-style: inherit;">return</span> <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"你好，</span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>name<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">！"</span></span>
+<span id="cb2-3"></span>
+<span id="cb2-4"><span class="bu" style="color: null;
+background-color: null;
+font-style: inherit;">print</span>(greet(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"世界"</span>))</span></code></pre></div></div>
+</div>
+<p>这里的 <code>print()</code> 用来输出文字。</p>
+</section>
+<section id="终端命令" class="level2">
+<h2 class="anchored" data-anchor-id="终端命令">终端命令</h2>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><span class="ex" style="color: null;
+background-color: null;
+font-style: inherit;">python</span> hello.py</span></code></pre></div></div>
 
 
 </section>

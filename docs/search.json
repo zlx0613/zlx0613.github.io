@@ -39,7 +39,21 @@
     "href": "posts/my-first-post/index.html#我现在理解的写作流程",
     "title": "我的第一篇博客：从零搭建个人博客",
     "section": "我现在理解的写作流程",
-    "text": "我现在理解的写作流程\n```text 在 VS Code 编写 index.qmd ↓ 保存文章 ↓ 用 Quarto 本地预览 ↓ 检查标题、文字和排版 ↓ 之后再同步到 GitHub 发布"
+    "text": "我现在理解的写作流程\n在 VS Code 编写 index.qmd\n          ↓\n保存文章\n          ↓\n用 Quarto 本地预览\n          ↓\n检查标题、文字和排版\n          ↓\n之后再同步到 GitHub 发布"
+  },
+  {
+    "objectID": "posts/my-first-post/index.html#我的第一个-python-程序",
+    "href": "posts/my-first-post/index.html#我的第一个-python-程序",
+    "title": "我的第一篇博客：从零搭建个人博客",
+    "section": "我的第一个 Python 程序",
+    "text": "我的第一个 Python 程序\n下面是我的示例代码：\n\n\nhello.py\n\ndef greet(name):\n    return f\"你好，{name}！\"\n\nprint(greet(\"世界\"))\n\n这里的 print() 用来输出文字。"
+  },
+  {
+    "objectID": "posts/my-first-post/index.html#终端命令",
+    "href": "posts/my-first-post/index.html#终端命令",
+    "title": "我的第一篇博客：从零搭建个人博客",
+    "section": "终端命令",
+    "text": "终端命令\npython hello.py"
   },
   {
     "objectID": "about.html",
